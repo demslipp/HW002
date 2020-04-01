@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Values{
-    public Values (){
-    }
 
     double[] array=new double[2];
     public double maximum;
