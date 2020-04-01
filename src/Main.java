@@ -42,6 +42,7 @@ public class Main{
         lottery.ImLucky();
 
         MagicSquare magicSquare = new MagicSquare ();
+        magicSquare.Detect ();
 
     }
 }

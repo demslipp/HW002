@@ -5,7 +5,7 @@ import java.util.Random;
 public class Lottery{
 
     public void ImLucky (){
-        List<Integer> list=new ArrayList ();
+        List<Integer> list=new ArrayList<> ();
         for (int i=0; i<49; i++){
             list.add (i+1);
         }
