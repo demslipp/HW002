@@ -6,13 +6,13 @@ public class Values{
     public double maximum;
     public double minimum;
     boolean flag=false;
-    Scanner scanner=new Scanner (System.in);
+    Scanner scanner=new Scanner(System.in);
     int j=0;
 
-    public String DoubleValues (){
-        double max = Math.nextDown(Double.MAX_VALUE);
-        double min = Math.nextUp(0.0);
-
+    public String DoubleValues(){
+        double max=Math.nextDown(Double.MAX_VALUE);
+        double min=Math.nextUp(0.0);
+        System.out.println("Min: "+min+" Max: "+max);
         return "Min: "+min+" Max: "+max;
 
     }

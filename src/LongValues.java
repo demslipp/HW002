@@ -51,7 +51,7 @@ public class LongValues{
 
     }
 
-    /*public String Sum (){
+    public String Sum (){
 
     }
 
@@ -66,5 +66,4 @@ public class LongValues{
 
     public String Remainder (){
     }
-}
-*/
+}*/
