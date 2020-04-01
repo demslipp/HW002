@@ -4,17 +4,20 @@ public class Main{
 
     public static void main (String[] args){
 
+        Notation notation = new Notation ();
+        System.out.println (notation.ChangeNumberSystem (18));
+
+        Angle angle = new Angle ();
+        System.out.println ("\n"+angle.NormalizeUsingPercent (-10));
+        System.out.println (angle.NormalizeUsingMath (-10)+"\n");
+
         ThreeInt threeInt=new ThreeInt ();
         System.out.println (threeInt.FoundMax (14,12,18));
         System.out.println (threeInt.FoundMaxUsingTernary (14, 12, 18));
         System.out.println (threeInt.FoundMaxMath (14, 12, 18));
 
-        Notation notation = new Notation ();
-        System.out.println (notation.ChangeNumberSystem (18));
-
-       // Values values=new Values ();
-        //System.out.println ("\nType values here:");
-       // System.out.println (values.DoubleValues ());
+        Values values=new Values ();
+       System.out.println (values.DoubleValues ());
 
         TryMaxInt tryMaxInt=new TryMaxInt (Integer.MAX_VALUE);
         System.out.println ("\n"+tryMaxInt.WhatsHapened ());
@@ -33,6 +36,12 @@ public class Main{
         System.out.println (stringComparison.MakeAComparison (first, second));
 
         RandomString randomString=new RandomString ();
-        System.out.println (randomString.CreateNewString ());
+        System.out.println (randomString.CreateNewString ()+"\n");
+
+        Lottery lottery = new Lottery ();
+        lottery.ImLucky();
+
+        MagicSquare magicSquare = new MagicSquare ();
+
     }
 }

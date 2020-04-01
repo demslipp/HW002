@@ -10,29 +10,10 @@ public class Values{
     int j=0;
 
     public String DoubleValues (){
+        double max = Math.nextDown(Double.MAX_VALUE);
+        double min = Math.nextUp(0.0);
 
-        for (int i=0; i<array.length; i++){
-            if (scanner.nextDouble ()>0){
-
-                if (! flag){
-                    minimum=array[i];
-                    maximum=array[i];
-                    flag=true;
-                }
-                array[j]=scanner.nextDouble ();
-                j++;
-            }
-            if (array[i]>maximum){
-                maximum=array[i];
-            }
-            if (array[i]<minimum){
-                minimum=array[i];
-            }
-
-            System.out.println (array[i]);
-        }
-
-        return "Min: "+minimum+" Max: "+maximum;
+        return "Min: "+min+" Max: "+max;
 
     }
 }
